@@ -14,3 +14,5 @@ This code creates an adjacency list representation of an undirected graph using 
 The indices of the adjacency array correspond to the node of the graph.
 ex: Index 1 of the array corresponds to Node 1 of the graph.
 and the vector of integers at that particular index(say 1) contains the Node no.s of the nodes that are connected with that particular node represented by the index where the vector is present (Node 1).
+---
+The loop runs 'm' times because every loop iteration adds 1 edge into the adjacency list.
