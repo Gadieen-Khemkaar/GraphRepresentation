@@ -1,4 +1,5 @@
-#Graph Representation
+Graph Representation
+---
 This C++ program reads a graph with n nodes and m edges, and stores it as an adjacency list (used for efficient graph representation).
 
 It uses a vector of vectors to store connections for each node.
