@@ -8,3 +8,9 @@ For every edge input (u, v), it adds v to u’s list and u to v’s list — ass
 
 🧠 One-liner:
 This code creates an adjacency list representation of an undirected graph using vectors in C++.
+
+
+---
+The indices of the adjacency array correspond to the node of the graph.
+ex: Index 1 of the array corresponds to Node 1 of the graph.
+and the vector of integers at that particular index(say 1) contains the Node no.s of the nodes that are connected with that particular node represented by the index where the vector is present (Node 1).
